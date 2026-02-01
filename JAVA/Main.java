@@ -1,14 +1,24 @@
 
 import java.util.Scanner;
 
-public class Main{
-    public static void main(String[] args){
-        System.out.println("Hello Bro");
+public class Main
+{
+    public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
-        System.out.print("Enter Your Creativity :");
-        String creati = inp.nextLine();
+        System.out.print("Enter the Starting Value : ");
+        int v1 = inp.nextInt();
 
-        System.out.println("Your Creativity is : " + creati);
+        System.out.print("Enter the Ending Value :");
+        int v2 = inp.nextInt();
+
+        while(v1 <= v2){
+            if(v1 % 2 == 0 ){
+                System.out.println("Even Values :" +v1);
+
+            }
+            
+                v1++;
+        }
     }
 }
