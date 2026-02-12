@@ -7,3 +7,4 @@ Main2.java -> Encapsulation
 Main3.java -> Inheritance  
 Main4.java -> Multiple Inheritance using Interface  
 Main5.java -> Abstraction
+Main6.java -> Polymorphism  
